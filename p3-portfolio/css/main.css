@@ -58,14 +58,19 @@ h1 {
 }
 
 img {
-  max-width: 100%;
+  width: 100vw;
 }
+/*@media screen and (min-width: 550px) {
+  img {
+    max-width: 100vw;
+  }
+}*/
 
 svg#logo {
   fill: #666;
   height: 6vw;
   margin: 0 auto 0.5em auto;
-  width: 6vw;
+  max-width: 6vw;
 }
 
 header:hover svg#logo {
